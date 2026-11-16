@@ -1,5 +1,5 @@
-add_library(caelestia-pch INTERFACE)
-target_precompile_headers(caelestia-pch INTERFACE
+add_library(serein-pch INTERFACE)
+target_precompile_headers(serein-pch INTERFACE
     <qobject.h>
     <qqmlintegration.h>
     <qstring.h>
