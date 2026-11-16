@@ -99,7 +99,7 @@ class BarClock : public settings::ObjectNode {
 
     CONFIG_PROPERTY(bool, background, false)
     CONFIG_PROPERTY(bool, showDate, false)
-    CONFIG_PROPERTY(bool, showIcon, true)
+    CONFIG_PROPERTY(bool, showIcon, false)
     CONFIG_PROPERTY(bool, showSeconds, false)
 };
 
@@ -122,7 +122,7 @@ class BarConfig : public settings::ObjectNode {
             LIST_ENTRY(microphone, false),
             LIST_ENTRY(kbLayout, false),
             LIST_ENTRY(network, true),
-            LIST_ENTRY(bluetooth, true),
+            LIST_ENTRY(bluetooth, false),
             LIST_ENTRY(battery, true),
         }))
     CONFIG_LIST(EntryList, entries,
