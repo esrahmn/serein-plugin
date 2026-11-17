@@ -31,7 +31,7 @@ Requirements: a C++20 compiler, CMake, Ninja, Qt 6.9+ (base, declarative, shader
 ```sh
 git clone https://github.com/esrahmn/serein-plugin ~/src/serein-plugin
 cd ~/src/serein-plugin
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DVERSION=0.1.1 -DGIT_REVISION="$(git rev-parse HEAD)"
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DVERSION=0.2.0 -DGIT_REVISION="$(git rev-parse HEAD)"
 cmake --build build
 cmake --install build --prefix ~/.local     # or --prefix /usr (as root) for a system-wide install
 ```
